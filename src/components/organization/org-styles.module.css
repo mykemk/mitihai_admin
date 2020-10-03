@@ -1,0 +1,25 @@
+.orgUpdate {
+    width: 95%;
+    margin: auto;
+}
+
+.orgUpdate input {
+    width: 100%;
+}
+
+.orgUpdate textarea {
+    width: 100%;
+}
+
+.orgUpdate label {
+    width: 30%;
+    float: left
+}
+
+.orgUpdate input, label, textarea {
+    margin-top: 1%
+}
+
+.orgUpdate textarea {
+    height: 100%
+}

@@ -1,0 +1,12 @@
+.header {
+  position: absolute;
+  left: 1%;
+  width: 98%;
+  height: 9%;
+  background-color: #238C2C
+}
+
+.header * {
+  padding: 1.8%;
+  color: white
+}

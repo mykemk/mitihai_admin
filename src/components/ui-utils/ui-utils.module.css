@@ -1,0 +1,37 @@
+.breadcrumb{
+    position: absolute;
+    left:1.5%;
+    top:1%;
+    width:50%;
+    display: inline-block;
+    margin-bottom: 3%;
+}
+.breadcrumb *{
+    display: inline;
+    color:black;
+    font-weight: 400
+}
+.imageCard {
+    background-color: white;
+}
+.imageActions{
+    width:90%;
+    margin:auto;
+    
+}
+.imageAction{
+    outline:none;
+    background-color: inherit;
+    margin-right: 5%;
+}
+.userState{
+    position: absolute;
+    top:2%;
+    right:5%;
+    width:40%;
+    display: inline-block;
+    margin-bottom: 3%;
+}
+.userState *{
+    text-align: right;
+}

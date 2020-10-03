@@ -1,0 +1,26 @@
+/* Billing details fieldset in  the order form*/
+.billingDetails {
+    position: relative;
+    left: 2%;
+    width: 95%;
+    border: none;
+}
+
+/* Billing section styles for large screens */
+@media screen and (min-width:600px) {
+    .billingDetails {
+        left: 49%;
+        width: 48%;
+    }
+
+    .billingDetails label {
+        width: 32%;
+        float: left;
+        margin-right: 2%;
+        margin-bottom: 2%;
+    }
+
+    .billingDetails input {
+        margin-bottom: 2%
+    }
+}

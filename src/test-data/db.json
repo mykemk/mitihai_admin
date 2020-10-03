@@ -1,0 +1,217 @@
+{
+    "groups":[
+        {"id":1, "Group":"Admin"},
+        {"id":2,"Group":"Members"},
+        {"id":3,"Group":"Vendors"}
+    ],
+    "users":[
+        {
+            "id":1,
+            "First Name": "Myke",
+            "Last Name": "Murithi",
+            "Phone Number": "0791088553",
+            "Email": "Myke@gmail.com",
+            "gender": "male",
+            "country": "Kenya",
+            "Id_Number": 37999922
+          },
+          {
+            "id":2,
+            "First Name": "Joshua",
+            "Last Name": "Murathi",
+            "Phone Number": "0791088553",
+            "Email": "joshu@gmail.com",
+            "gender": "male",
+            "country": "Kenya",
+            "Id_Number": 377799922
+          }
+    ],
+    "events":[
+        {
+            "id":1,
+            "Event_Name": "Super Sato",
+            "Venue": "Uhuru Gardens",
+            "Time": "12:30 PM",
+            "Date": "12/12/2020",
+            "Activities": 5,
+            "Confirmations": 30,
+            "Invitees": "Everyone",
+            "Attendees": 25,
+            "Status": "Done"
+          },
+          {
+            "id":2,
+            "Event_Name": "Fun Day",
+            "Venue": "Java Gardens",
+            "Time": "12:30 PM",
+            "Date": "12/12/2020",
+            "Activities": 5,
+            "Confirmations": 30,
+            "Invitees": "Everyone",
+            "Attendees": 35,
+            "Status": "Done"
+          }
+    ],
+    "faqs":[
+        {
+            "id":1,
+          "Question": "What is woodworld ?",
+          "Category": "About",
+          "Answer":
+            "Woodworld is an organization seeking to assemble youths in promoting environmental conversation"
+        },
+        {
+            "id":2,
+          "Question": "What is woodworld ?",
+          "Category": "About",
+          "Answer":
+            "Woodworld is an organization seeking to assemble youths in promoting environmental conversation"
+        }       
+      ],
+    "memberships":[
+        {
+            "id":1,
+          "Plan_Name": "Platinum",
+          "Plan_Fee": 1000,
+          "Registered_Members": 200,
+          "Priveledges": 5
+        },
+        {
+            "id":2,
+          "Plan_Name": "Custom",
+          "Plan_Fee": 1000,
+          "Registered_Members": 100,
+          "Priveledges": 3
+        }
+      ],
+    "Members":[
+        {
+            "id":1,
+          "First_Name": "Michael",
+          "Last_Name": "Karanja",
+          "Phone_Number": "+254791088553",
+          "Email_Address": "myke@gmail.com",
+          "Gender": "male",
+          "Country": "Kenya",
+          "Membership_Plan": "Platinum"
+        },
+        {
+            "id":2,
+            "First_Name": "Joseph",
+            "Last_Name": "Karanja",
+            "Phone_Number": "+254791088553",
+            "Email_Address": "jose@gmail.com",
+            "Gender": "male",
+            "Country": "Kenya",
+            "Membership_Plan": "Custom"
+        }
+      ],
+    "orders":[
+        {
+        "id":1,
+          "Order_Id": "BX12345",
+          "Customer_Name": "Julius Manyanga",
+          "CustomerPhone": "+25479812345",
+          "Date": "12/2/2019",
+          "Time": "8:10PM",
+          "Products_Count": 5,
+          "Amount": 500,
+          "Due": 200,
+          "Status": "Unpaid",
+          "Cashier": "Martha"
+        },
+        {
+            "id":2,
+              "Order_Id": "BX12345",
+              "Customer_Name": "Macharia Manyanga",
+              "CustomerPhone": "+25479812345",
+              "Date": "12/2/2019",
+              "Time": "8:10PM",
+              "Products_Count": 5,
+              "Amount": 400,
+              "Due": 800,
+              "Status": "Unpaid",
+              "Cashier": "Martha"
+            }
+      ],
+      "partners":[
+        {
+            "id":1,
+          "Partner_Name": "Safaricom",
+          "Country": "Kenya",
+          "Email": "saf@safaricom.com",
+          "Type": "Organization",
+          "Phone_Number": "*254791088553",
+          "Partnership_Description": "Super awesome catalystic"
+        },
+        {
+            "id":2,
+            "Partner_Name": "Telcom",
+            "Country": "China",
+            "Email": "saf@telcom.com",
+            "Type": "Organization",
+            "Phone_Number": "*254791088553",
+            "Partnership_Description": "Super awesome catalystic"
+        }
+      ],
+    "categogies":[
+        {
+        "id":1,
+        "Name":"Lifestyle",
+        "Description":"Has a super awesome lifestyle products",
+        "Sub-Categories":5
+    },
+    {
+        "id":2,
+        "Name":"Health",
+        "Description":"Has a super awesome lifestyle products",
+        "Sub-Categories":10
+    }
+],
+"products":[
+    {
+        "id":1,
+      "Product_Name": "Watch",
+      "Category": "Lifestyle",
+      "SubCategory": "Men's Watches",
+      "Price": 4000,
+      "Quantity": 100,
+      "Status": "Available"
+    },
+    {
+    "id":2,
+      "Product_Name": "Brand Hot",
+      "Category": "Lifestyle",
+      "SubCategory": "Men's Watches",
+      "Price": 3000,
+      "Quantity": 400,
+      "Status": "Available"
+    }
+  ],
+  "vendors":[
+    {
+        "id":1,
+      "First_Name": "Myke",
+      "Last_Name": "Murithi",
+      "Phone_Number": "+254791088554",
+      "Email_Address": "mykemitrichev@gmail.com",
+      "Gender": "Male",
+      "Country": "Kenya",
+      "Location": "Nairobi",
+      "Join_Date": "12 / 3 / 2010",
+      "Total_Orders": 1000
+    },
+    {
+        "id":2,
+      "First_Name": "David",
+      "Last_Name": "Wachira",
+      "Phone_Number": "+254791088554",
+      "Email_Address": "wachiraDK@gmail.com",
+      "Gender": "Male",
+      "Country": "Kenya",
+      "Location": "Nairobi",
+      "Join_Date": "12 / 3 / 2010",
+      "Total_Orders": 1000
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+/* Styles the basic appearance of all buttons*/
+.app{
+  width:100%;
+  overflow-x: hidden;
+}
+button {
+  color: white;
+  font-size:1.1em;
+  margin: 2% 1% 2% 1%;
+  outline: none
+}
+.hidden{
+  display: none;
+}
+.closedNav{
+  display: none;
+}
+.zoomed{
+  transform: scale(1.2);
+  z-index:1;
+  transition: transform 0.5s ease-in-out
+}
+/*Dashboard Navigation bar styles */
+.sidenav {
+  position: fixed;
+  left: 0;
+  top:0;
+  height: 100%;
+  width: 75%;
+  z-index:1;
+  /* display:none */
+}
+/* Styles the Popup options on hover of The side Nav*/
+.main {
+  position: absolute;
+  left: 1%;
+  top: 10%;
+  width: 98%;
+  height: 90%;
+  overflow-y: scroll;
+  overflow-x:hidden;
+  background:rgba(216, 225, 232, 0.568)
+}
+.columnHalf{
+  float: left;
+  width:97%;
+  margin-left: 1%;
+  margin-right: 2%;
+  margin: 1% 2% 1% 1%;
+}
+.centreTitle{
+  text-align: center
+}
+.center{
+  text-align: center;
+}
+.with-top-margin{
+  margin-top: 3%;
+}

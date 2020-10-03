@@ -1,0 +1,88 @@
+@media screen and (min-width:600px) {
+  .recordsNav {
+    left: 80%;
+    width: 20%;
+  }
+  .pageSizeSelect {
+    margin-top: 2%;
+    width: 15%;
+  }
+  .tableSearch {
+    left: 82%;
+    width: 14%;
+  }
+}
+
+@media screen and (max-width:1050px) and (min-width:600px) {
+  .sidenav {
+    width: 35%;
+  }
+  .dashboard-grid, .actionPage {
+    margin-top: 10%;
+  }
+  .eventActivities table {
+    margin-left: -2%;
+    width: 99%;
+  }
+  .membershipForm table {
+    width: 96%;
+    margin-left: -1%;
+  }
+}
+
+@media screen and (min-width:1050px) {
+  .header {
+    left: 15%;
+    width: 85%;
+  }
+  .dashboard-grid, .actionPage {
+    margin-top: 5%;
+  }
+  .main {
+    width: 85%;
+    left: 15%;
+  }
+  .sidenav {
+    width: 15%;
+  }
+  .columnHalf {
+    width: 44%;
+  }
+  .chartHalfWidth {
+    width: 45%;
+  }
+  .manageHeader {
+    top: 7%;
+  }
+  .eventActivities table {
+    margin-left: -1%;
+    width: 99%;
+  }
+  .modal {
+    left: 30%;
+    width: 30%;
+  }
+  .membershipForm {
+    width: 40%;
+  }
+  .faqForm {
+    width: 30%;
+  }
+  .shortInputs {
+    width: 45%
+  }
+  .shortInputs label {
+    width: 32%;
+    float: left;
+    margin: 2% 2% 1%
+  }
+  .shortInputs input {
+    width: 60%;
+    margin-bottom: 2%
+  }
+  .shortInputs select {
+    width: 60%;
+    margin-bottom: 2%;
+    margin-left: 0
+  }
+}

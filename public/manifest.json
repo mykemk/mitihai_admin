@@ -1,0 +1,50 @@
+{
+  "short_name": "Woodworld",
+  "name": "Woodworld admin panel",
+  "icons": [{
+    "src": "favicon.ico",
+    "sizes": "64x64",
+    "type": "image/x-icon"
+  },
+  {
+    "src": "icon-120",
+    "sizes": "120x120",
+    "type": "image/jpg"
+  },
+  {
+    "src": "icon-144",
+    "sizes": "144x144",
+    "type": "image/jpg"
+  },
+  {
+    "src": "icon-152",
+    "sizes": "152x152",
+    "type": "image/jpg"
+  },
+  {
+    "src": "icon-167",
+    "sizes": "167x167",
+    "type": "image/jpg"
+  },
+  {
+    "src": "icon-180",
+    "sizes": "180x180",
+    "type": "image/jpg"
+  },
+  {
+    "src": "icon-192",
+    "sizes": "192x192",
+    "type": "image/jpg"
+  },
+  {
+    "src": "icon-512",
+    "sizes": "512x512",
+    "type": "image/jpg"
+  }
+
+],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#238C2C",
+  "background_color": "#ffffff"
+}

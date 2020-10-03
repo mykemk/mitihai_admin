@@ -1,0 +1,106 @@
+.sidenav {
+  background-color: #293742;
+  color: white;
+  text-decoration: none;
+  overflow: hidden;
+  display: inline-block;
+  height: 100%;
+}
+
+.sidenav * {
+  color: white;
+  opacity: 1;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:active, a:hover {
+  color: antiquewhite;
+  text-decoration: none
+}
+
+.logoHolder {
+  position: absolute;
+  top: 0;
+  background-color: #1D7324;
+  height: 9%;
+  width: 100%;
+}
+
+.hidden {
+  display: none;
+}
+
+.sidenav button {
+  border: none;
+  outline:none;
+}
+
+.shown {
+  display: inline-block
+}
+
+/* Designs the appearance and position of the side Navigation bar*/
+
+.logo {
+  font-size: 1.5em;
+  margin-bottom: 10%;
+}
+
+.linksWrapper {
+  position: absolute;
+  top: 10%;
+  width: 100%;
+  font-weight: 100;
+}
+
+.linksWrapper * {
+  background-color: inherit
+}
+
+.navOption {
+  width: 100%;
+  border: none;
+  display: block;
+  padding: 0;
+  text-align: left;
+  font-size: 1.1em;
+  margin-top: 3%;
+  margin-bottom: 4%;
+}
+
+.navOption:hover, .navOption:active {
+  background-color: rgb(0, 89, 255);
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+.menuOptions {
+  width: 100%;
+  margin-left: 0%;
+}
+
+.navAction {
+  display: inline-block;
+  border: none;
+  margin-left: 5%;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  font-size: 1em;
+}
+
+.sidebarCloser {
+  position: absolute;
+  top: 0;
+  margin-top: 10%;
+  right: 0;
+}
+
+.menuOptionsToggle {
+  position: absolute;
+  right: 10%;
+}
