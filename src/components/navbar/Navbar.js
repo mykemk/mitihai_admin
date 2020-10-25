@@ -18,11 +18,11 @@ function Navbar({ toggleNavbar }) {
         </span>
       </div>
       <div className={Styles.linksWrapper}>
-        {/* <Link className={Styles.navOption} to="/dashboard">
+        <Link className={Styles.navOption} to="/dashboard">
           <Icon icon="dashboard" iconSize={Icon.SIZE_STANDARD} />
           {` Dashboard`}
-        </Link> */}
-        {/* <NavOption
+        </Link>
+        <NavOption
           iconName="group-objects"
           option="Groups"
           route="group"
@@ -49,7 +49,7 @@ function Navbar({ toggleNavbar }) {
         <Link className={Styles.navOption} to="/members">
           <Icon icon="people" iconSize={Icon.SIZE_STANDARD} />
           {` Members`}
-        </Link> */}
+        </Link>
 
         <NavOption
           iconName="data-lineage"
@@ -64,12 +64,12 @@ function Navbar({ toggleNavbar }) {
           actions={{ create: true, read: true }}
         />
 
-        {/* <Link className={Styles.navOption} to="/offers">
+        <Link className={Styles.navOption} to="/offers">
           <Icon icon="shop" iconSize={Icon.SIZE_STANDARD} />
           {` Offers`}
-        </Link> */}
+        </Link>
 
-        {/* <NavOption
+        <NavOption
           iconName="shopping-cart"
           option="Orders"
           route="order"
@@ -91,15 +91,15 @@ function Navbar({ toggleNavbar }) {
             { label: "Members Analysis", route: "analysis/members" },
             { label: "Events Analysis", route: "analysis/events" },
           ]}
-        /> */}
+        /> 
         <Link className={Styles.navOption} to="/faqs">
           <Icon icon="help" iconSize={Icon.SIZE_STANDARD} />
           {` FAQs`}
         </Link>
-        {/* <Link className={Styles.navOption} to="/organization">
+        <Link className={Styles.navOption} to="/organization">
           <Icon icon="layers" iconSize={Icon.SIZE_STANDARD} />
           {` Organization`}
-        </Link> */}
+        </Link>
         <UserProfile />
       </div>
     </Grid>
