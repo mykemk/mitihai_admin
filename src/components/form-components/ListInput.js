@@ -21,7 +21,7 @@ const ListInput = ({
     return () => {
       return () => remove(0);
     };
-  }, []);
+  });
 
   return (
     <fieldset className={`tabularInput ${className}`} {...props}>
