@@ -1,4 +1,9 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/156b16dc-8ed3-43d1-b576-87d1d43a3c59/deploy-status)](https://app.netlify.com/sites/mitihai-admin/deploys)
+
+## Live preview
+View the live site here https://mitihai-admin.netlify.app/
+To log in use username: `user`
+password: `user`
 ## Available Scripts
 
 In the project directory, you can run:
