@@ -1,14 +1,16 @@
-## Folder Structure
+## **Folder Structure**
+
 The following is the folder structure:
 
 * `build/` - Files generated after building the application by running `yarn build`
+  
 * `public/` - bublic assets
 * `src/` - source code files for the application
   - `__tests__/` - Tests for the application
   - `app/` - app high level components
   - `assets/` - static assets for the application
   - `components/` - js and css styles for the various components
-        - `analysis/` - analysis and summary pages
+        -  `analysis/` - analysis and summary pages
         - `auth/` - authentication components
         - `charts/` - various types of charts used to create the analysis files
         - `dashboard`/ - dashboard components
@@ -41,3 +43,18 @@ The following is the folder structure:
   - `index.css` 
 
 * Each components folder has an `index.js` file used to export the various files/components in the folder
+
+## **API and integration**
+- The application is being served by an API accessed at: `https:www.mitihai.org/api`
+
+## **Branches** 
+The github repo has the following branches:
+
+### **Main branches**
+* `master` - main branch
+* `deploy` - with changes ready for deployment
+  
+### **Feature branches**
+* `design` - for performing various ui design integrations in the applications
+* `api-integ` - when integrating various sections of the applications with the api
+
