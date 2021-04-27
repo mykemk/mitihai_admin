@@ -1,9 +1,11 @@
 import { useReducer, useCallback } from "react";
 import axios from "axios";
+
 let initialState = {
   error: "",
   isUploading: true,
 };
+
 const postDataReducer = (state, action) => {
   switch (action.status) {
     case "POST_SUCCESS":
@@ -20,6 +22,7 @@ const postDataReducer = (state, action) => {
       return state;
   }
 };
+
 export function usePost(url) {
   const [state, dispatch] = useReducer(postDataReducer, initialState);
   const upload = useCallback(

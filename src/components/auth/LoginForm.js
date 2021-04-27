@@ -4,28 +4,37 @@ import Styles from "./login.module.css";
 import { Button } from "@material-ui/core";
 import LockIcon from "@material-ui/icons/Lock";
 import { AuthContext } from "app/App";
+import {usePost} from 'utils/hooks/usePost'
 
 function LoginForm() {
+  //style for invalid username and password
   const invalid = {
     border: "1px solid red",
   };
+
   const history = useHistory();
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [isWrongPassword, setIsWrongPassword] = useState();
   const { dispatch } = useContext(AuthContext);
 
+  const {state,upload} = usePost("http://www.mitihai.org/auth/login/");
+
   const validatePassword = useCallback(() => {
-    if (username === "user" && password === "user") {
-      setIsWrongPassword(false);
-      dispatch({ details: "LOG_IN", payload: { username: "User" } });
-      history.push("/dashboard");
-    }
-    return setIsWrongPassword(true);
+    // if (username === "user" && password === "user") {
+    //   setIsWrongPassword(false);
+    //   dispatch({ details: "LOG_IN", payload: { username: "User" } });
+    //   history.push("/dashboard");
+    // }
+    // return setIsWrongPassword(true);
+    upload({email:username, password:password})
+    console.log(state)
   }, [username, password, dispatch, history]);
+
   useEffect(() => {
     history.push("/");
   }, [history]);
+  
   return (
     <div className={Styles.loginContainer}>
       <div className={Styles.loginForm}>
